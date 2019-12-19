@@ -23,9 +23,9 @@ public class server
 
 
 
-        final String myMail = "immohanbera777@gmail.com";
-        final String password = "9779577704";
-        String fromEmail = "immohanbera777@gmail.com";
+        final String myMail = "********";
+        final String password = "**********";
+        String fromEmail = "***********";
         String toEmail = to;
 
         Properties properties = new Properties();
