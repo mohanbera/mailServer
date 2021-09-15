@@ -15,7 +15,7 @@ import java.util.Properties;
 public class server
 {
     @RequestMapping("/sendMail")
-    @CrossOrigin(origins = "http://34.93.251.164:7777/sendMail")
+    @CrossOrigin(origins = "http://your-url/sendMail")
     public String sendMail(@RequestBody Map<String, Object> payload)
     {
         String to=(String)payload.get("to");
