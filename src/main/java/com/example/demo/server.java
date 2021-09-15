@@ -46,7 +46,7 @@ public class server
         try {
             message.setFrom(new InternetAddress(fromEmail));
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(toEmail));
-            message.setSubject("Reply from Lovely Professional University");
+            message.setSubject("RWrite s subject for the email");
 
             Multipart emailContent = new MimeMultipart();
 
